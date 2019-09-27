@@ -119,12 +119,12 @@ Vue.component('calendar', {
     template: `<div class="imt-calendar">
                 <div class="calendar-month-wrapper">
                     <div class="calendar-icon calendar-icon-leftArrow" data-type="prev"  @click="jump" v-if="current > 0">
-                        <img src="../../static/index/static/icons/arrow_left.png" />
+                        <img src="../static/icons/arrow_left.png" />
                     </div>
                     <div class="calendar-icon calendar-icon-leftArrow" v-else></div>
                     <div class="calendar-month">{{currentTime}}</div>
                     <div class="calendar-icon calendar-icon-rightArrow" data-type="next"  @click="jump" v-if="(calendar.length - 1) > current">
-                        <img src="../../static/index/static/icons/arrow_right.png" />
+                        <img src="../static/icons/arrow_right.png" />
                     </div>
                     <div class="calendar-icon calendar-icon-rightArrow" v-else></div>
                 </div>
